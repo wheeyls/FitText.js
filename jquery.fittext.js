@@ -40,8 +40,7 @@
 				};
       // resetter() wipes out inline fonts and stops listening
         var resetter = function() {
-            var style = $this.attr("style");
-            $this.attr("style", style.replace(/font-size:.*?;/, ""));
+            $this.css("font-size", "");
             $(document).unbind("fittext-resize", resizer);
             $(document).unbind("fittext-reset", resetter);
         };
