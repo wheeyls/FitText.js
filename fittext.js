@@ -1,5 +1,3 @@
-/*global jQuery,$,ender,window,document*/
-/*jshint maxerr:10,indent:2,laxcomma:true*/
 /*!
  * FitText.js 1.0
  *
