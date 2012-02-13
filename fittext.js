@@ -1,10 +1,10 @@
 /*global jQuery,$,ender,window,document*/
 /*jshint maxerr:10,indent:2,laxcomma:true*/
-/*!	
+/*!
  * FitText.js 1.0
  *
  * Copyright 2011, Dave Rupert http://daverupert.com
- * Released under the WTFPL license 
+ * Released under the WTFPL license
  * http://sam.zoy.org/wtfpl/
  *
  * Date: Thu May 05 14:23:00 2011 -0600
@@ -58,7 +58,7 @@
       };
       resizer = function () {
         $$.css({
-          "position" : "relative", 
+          "position" : "relative",
           "top" : ($p.height() / 2),
           "margin-top" : (-$$.height() / 2)
         });
@@ -78,7 +78,7 @@
     return this.each(function () {
       var $this = $(this);              // store the object
       var compressor = kompressor || 1; // set the compressor
-      if (options) { 
+      if (options) {
         $.extend(settings, options);
       }
 
@@ -103,4 +103,4 @@
     });
   };
 
-})(this.jQuery || this.ender);
+}(this.jQuery || this.ender));
