@@ -1,4 +1,4 @@
-/*global jQuery */
+/*global jQuery or ender */
 /*!	
  * FitText.js 1.0
  *
@@ -99,4 +99,4 @@
     });
   };
 
-})( jQuery );
+})( this.jQuery || this.ender );
